@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Full & Final Settlement (FnF) Calculator India — Notice Pay, Leave Encashment, Gratuity | NxtCraft</title>
+<meta name="description" content="Calculate your Full & Final Settlement (FnF) amount. Includes notice pay recovery, earned leave encashment, gratuity, bonus, PF deductions. Free India FnF calculator.">
+<meta name="keywords" content="full final settlement calculator India, FnF calculator, notice pay calculation, earned leave encashment, last working day payout, resign FnF amount India">
+<link rel="canonical" href="https://nxtcraft.github.io/gratuity/fnf/">
+<meta property="og:title" content="Full & Final Settlement (FnF) Calculator India">
+<meta name="theme-color" content="#d97706">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0b0f1a;--surface:#111827;--surface2:#1e2535;--border:#2a3347;--text:#f1f5f9;--muted:#8896b3;--accent:#d97706;--accent2:#f59e0b;--success:#10b981;--error:#ef4444}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:14px;padding-bottom:40px}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:52px;position:sticky;top:0;z-index:50}
+.nav-logo{font-weight:800;font-size:17px;color:var(--text);text-decoration:none}.nav-logo span{color:var(--accent)}
+.nav-links{display:flex;gap:16px;font-size:13px}
+.nav-links a{color:var(--muted);text-decoration:none}.nav-links a:hover{color:var(--accent)}
+.container{max-width:900px;margin:0 auto;padding:20px 16px}
+h1{font-size:20px;font-weight:800;margin-bottom:4px}
+.subtitle{font-size:13px;color:var(--muted);margin-bottom:16px}
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:620px){.layout{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.card-title{font-size:11px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+.section-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.7px;font-weight:700;margin:12px 0 7px;padding-bottom:3px;border-bottom:1px solid var(--border)}
+.field{margin-bottom:9px}
+.field label{display:block;font-size:11px;color:var(--muted);margin-bottom:3px}
+.field input[type=number],.field select,.field input[type=date]{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:7px 10px;color:var(--text);font-size:13px;outline:none}
+.field input:focus,.field select:focus{border-color:var(--accent)}
+.field .hint{font-size:10px;color:#475569;margin-top:2px}
+.inline{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border)}
+.toggle-row label{font-size:12px;color:var(--muted)}
+.toggle-row input[type=checkbox]{accent-color:var(--accent);width:15px;height:15px}
+.btn{width:100%;margin-top:12px;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:11px;font-size:14px;font-weight:700;cursor:pointer}
+.btn:hover{background:var(--accent2)}
+.r-row{display:flex;justify-content:space-between;padding:6px 10px;border-radius:6px;margin-bottom:5px;font-size:12px}
+.r-row.cr{background:#0a2010;border:1px solid #14532d}.r-row.db{background:#2d1515;border:1px solid #7f1d1d}
+.r-row .lbl{color:#86efac}.r-row.db .lbl{color:#fca5a5}
+.r-row .amt{font-weight:700;color:#4ade80}.r-row.db .amt{color:#f87171}
+.total-box{background:linear-gradient(135deg,var(--surface2),var(--surface));border:1px solid var(--accent);border-radius:10px;padding:14px;text-align:center;margin-top:10px}
+.total-amt{font-size:1.8rem;font-weight:900;color:var(--accent2)}
+.total-label{font-size:11px;color:var(--muted);margin-bottom:4px}
+.total-sub{font-size:11px;color:var(--muted);margin-top:4px}
+.tenure{font-size:11px;color:var(--accent);margin-bottom:8px}
+.seo-box{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;color:var(--muted);font-size:13px;line-height:1.7;margin-top:16px}
+.seo-box h2{color:var(--text);font-size:15px;margin-bottom:8px}
+.seo-box p{margin-bottom:6px}
+.seo-box strong{color:var(--text)}
+.sht{font-size:10px;color:#334155;margin-top:6px}
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://nxtcraft.github.io/gratuity/" class="nav-logo">Gratuity<span>Calc</span></a>
+  <div class="nav-links">
+    <a href="../">🏅 Gratuity</a>
+    <a href="." style="color:var(--accent)">🤝 FnF</a>
+    <a href="../guide/">📖 Guide</a>
+    <a href="https://nxtcraft.github.io/">← All Tools</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>🤝 Full &amp; Final Settlement Calculator</h1>
+  <div class="subtitle">Notice Pay · Earned Leave Encashment · Gratuity · Bonus · PF — India Labour Laws</div>
+
+  <div class="layout">
+    <div class="card">
+      <div class="card-title">Employee Details</div>
+
+      <div class="section-label">Salary</div>
+      <div class="inline">
+        <div class="field"><label>Gross Monthly Salary (₹)</label><input type="number" id="gross" placeholder="60000" oninput="calc()"></div>
+        <div class="field"><label>Basic Salary (₹/month)</label><input type="number" id="basic" placeholder="24000" oninput="calc()"><div class="hint">Usually 40–50% of gross</div></div>
+      </div>
+
+      <div class="section-label">Employment Period</div>
+      <div class="inline">
+        <div class="field"><label>Date of Joining</label><input type="date" id="doj" onchange="calc()"></div>
+        <div class="field"><label>Last Working Day</label><input type="date" id="lwd" onchange="calc()"></div>
+      </div>
+      <div class="tenure" id="tenure-txt"></div>
+
+      <div class="section-label">Notice Period</div>
+      <div class="inline">
+        <div class="field"><label>Notice Period (days per contract)</label><input type="number" id="np" placeholder="90" oninput="calc()"></div>
+        <div class="field"><label>Actual Notice Served (days)</label><input type="number" id="ns" placeholder="0" oninput="calc()"><div class="hint">0 if resigned immediately</div></div>
+      </div>
+
+      <div class="section-label">Leave & Bonus</div>
+      <div class="inline">
+        <div class="field"><label>Earned Leave Balance (days)</label><input type="number" id="el" placeholder="0" oninput="calc()"></div>
+        <div class="field"><label>Bonus / Arrears (₹)</label><input type="number" id="bonus" placeholder="0" oninput="calc()"></div>
+      </div>
+
+      <div class="section-label">Deductions</div>
+      <div class="toggle-row"><label>Deduct Employee PF (12% of Basic)</label><input type="checkbox" id="pf" checked onchange="calc()"></div>
+      <div class="toggle-row"><label>Deduct Professional Tax</label><input type="checkbox" id="pt" onchange="calc()"></div>
+      <div class="field" style="margin-top:8px"><label>TDS on FnF (₹)</label><input type="number" id="tds" placeholder="0" oninput="calc()"></div>
+      <div class="field"><label>Salary Already Paid for Partial Month (₹)</label><input type="number" id="adv" placeholder="0" oninput="calc()"></div>
+
+      <button class="btn" onclick="calc()">📊 Calculate FnF</button>
+    </div>
+
+    <div class="card">
+      <div class="card-title">FnF Breakdown</div>
+      <div id="fnf-out" style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px">
+        <div style="font-size:2rem;margin-bottom:8px">🧮</div>Fill in details to calculate FnF
+      </div>
+    </div>
+  </div>
+
+  <div class="seo-box">
+    <h2>What is Full &amp; Final Settlement (FnF)?</h2>
+    <p>FnF is the complete payout on your last working day. Under Indian labour law it must be settled within 30–45 days. It includes: <strong>unpaid salary</strong> for days worked in the last month, <strong>earned leave encashment</strong> (at basic per day, tax-free up to ₹25L under Section 10(10AA)), <strong>gratuity</strong> (if 5+ years — 15/26 × basic × years), and notice pay adjustments.</p>
+    <p><strong>Notice Pay Recovery:</strong> If you don't serve the full notice, the employer deducts the shortfall at your per-day salary rate. If you serve extra beyond notice, they owe you that many days' pay in lieu.</p>
+    <p><strong>PF Note:</strong> Your PF (12% basic) goes directly to your PF account — it's not part of the cash FnF. After 2+ months of unemployment, you can fully withdraw it via the EPFO portal.</p>
+    <p class="sht">Free FnF calculator India · notice pay recovery · leave encashment · gratuity on resignation · last working day settlement · no signup</p>
+  </div>
+</div>
+
+<div style="text-align:center;padding:14px 20px;font-size:13px;color:var(--muted);border-top:1px solid var(--border);margin-top:16px">
+  <a href="https://nxtcraft.github.io/" style="color:#6366f1;text-decoration:none;font-weight:600">← All Tools</a>
+  &nbsp;·&nbsp;
+  <a href="https://buymeacoffee.com/nxtcraft" target="_blank" rel="noopener" style="background:#FFDD00;color:#000;padding:2px 10px;border-radius:6px;font-weight:700;text-decoration:none;font-size:12px">☕ Support</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:pradeepkesharwani4@gmail.com?subject=Feedback" style="color:var(--muted);text-decoration:none">📧 Feedback</a>
+</div>
+
+<script>
+function fmt(n){return'₹'+Math.round(Math.abs(n)).toLocaleString('en-IN')}
+function calc(){
+  const gross=+document.getElementById('gross').value||0,basic=+document.getElementById('basic').value||(gross*.4);
+  if(!gross){document.getElementById('fnf-out').innerHTML='<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:13px"><div style="font-size:2rem;margin-bottom:8px">🧮</div>Fill in salary details</div>';return;}
+  const doj=document.getElementById('doj').value,lwd=document.getElementById('lwd').value;
+  const np=+document.getElementById('np').value||0,ns=Math.min(+document.getElementById('ns').value||0,np);
+  const el=+document.getElementById('el').value||0,bonus=+document.getElementById('bonus').value||0;
+  const pf=document.getElementById('pf').checked,pt=document.getElementById('pt').checked;
+  const tds=+document.getElementById('tds').value||0,adv=+document.getElementById('adv').value||0;
+  const perDay=gross/26,bpd=basic/26;
+  let tenYrs=0,daysWorked=26;
+  if(doj&&lwd){
+    const d1=new Date(doj),d2=new Date(lwd);
+    tenYrs=(d2-d1)/86400000/365;
+    const lms=new Date(d2.getFullYear(),d2.getMonth(),1);
+    daysWorked=Math.round((d2-lms)/86400000)+1;
+    const ry=Math.floor(tenYrs),rm=Math.floor((tenYrs-ry)*12);
+    document.getElementById('tenure-txt').textContent=`Tenure: ${ry}y ${rm}m (${Math.round(tenYrs*365)} days)`;
+  }
+  const lastSal=perDay*daysWorked;
+  const nShort=np-ns,notDed=nShort>0?perDay*nShort:0,notCred=nShort<0?perDay*Math.abs(nShort):0;
+  const elEnc=el*bpd;
+  const grat=tenYrs>=5?bpd*15*Math.floor(tenYrs):0;
+  const pfAmt=pf?basic*0.12*(daysWorked/26):0,ptAmt=pt?200:0;
+  const cr=lastSal+notCred+elEnc+grat+bonus;
+  const db=notDed+pfAmt+ptAmt+tds+adv;
+  const net=cr-db;
+  const rows=[];
+  rows.push({t:'cr',l:'💰 Salary for Days Worked',a:lastSal,n:`${daysWorked}d × ₹${Math.round(perDay)}/d`});
+  if(notCred>0)rows.push({t:'cr',l:'📋 Notice Pay in Lieu',a:notCred,n:`${Math.abs(nShort)} extra days`});
+  if(elEnc>0)rows.push({t:'cr',l:'🏖️ Earned Leave Encashment',a:elEnc,n:`${el}d × ₹${Math.round(bpd)}/d (basic)`});
+  if(grat>0)rows.push({t:'cr',l:'🎁 Gratuity',a:grat,n:`${Math.floor(tenYrs)}yr × 15/26 × Basic`});
+  if(bonus>0)rows.push({t:'cr',l:'🎉 Bonus / Arrears',a:bonus,n:''});
+  if(notDed>0)rows.push({t:'db',l:'⚠️ Notice Pay Recovery',a:-notDed,n:`${nShort}d short`});
+  if(pfAmt>0)rows.push({t:'db',l:'📦 PF Employee 12%',a:-pfAmt,n:'To PF account'});
+  if(ptAmt>0)rows.push({t:'db',l:'🏛️ Professional Tax',a:-ptAmt,n:'₹200'});
+  if(tds>0)rows.push({t:'db',l:'🧾 TDS',a:-tds,n:''});
+  if(adv>0)rows.push({t:'db',l:'💸 Advance Paid',a:-adv,n:''});
+  document.getElementById('fnf-out').innerHTML=`
+    <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.7px;font-weight:700;margin-bottom:6px">Credits</div>
+    ${rows.filter(r=>r.t==='cr').map(r=>`<div class="r-row cr"><div class="lbl">${r.l}${r.n?` <span style="font-size:10px;color:#14532d">(${r.n})</span>`:''}</div><div class="amt">${fmt(r.a)}</div></div>`).join('')}
+    <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.7px;font-weight:700;margin:10px 0 6px">Deductions</div>
+    ${rows.filter(r=>r.t==='db').length===0?'<div style="font-size:12px;color:#334155;padding:4px 0">No deductions</div>':''}
+    ${rows.filter(r=>r.t==='db').map(r=>`<div class="r-row db"><div class="lbl">${r.l}${r.n?` <span style="font-size:10px;color:#7f1d1d">(${r.n})</span>`:''}</div><div class="amt">${fmt(r.a)}</div></div>`).join('')}
+    <div class="total-box">
+      <div class="total-label">NET FnF PAYABLE</div>
+      <div class="total-amt" style="color:${net>=0?'var(--accent2)':'#ef4444'}">${fmt(net)}</div>
+      <div class="total-sub">${net>=0?'✅ Employer owes you':'⚠️ You owe employer'}${grat===0&&tenYrs>0&&tenYrs<5?`<br><span style="color:#d97706;font-size:10px">ℹ️ Gratuity not applicable — need 5 years (you have ${tenYrs.toFixed(1)})</span>`:''}</div>
+    </div>
+    <div style="font-size:11px;color:#334155;margin-top:8px;padding:6px;background:var(--bg);border-radius:6px;line-height:1.5">⚠️ Estimate. PF employer (12%) credited to PF account separately. Consult HR for final figures.</div>`;
+}
+</script>
+</body>
+</html>
