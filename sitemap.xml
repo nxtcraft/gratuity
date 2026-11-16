@@ -2,4 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://nxtcraft.github.io/gratuity/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://nxtcraft.github.io/gratuity/guide/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/1-year/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/2-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/3-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/4-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/5-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/6-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/7-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/8-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/10-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/12-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/15-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/20-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/25-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/30-years/</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nxtcraft.github.io/gratuity/years/</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority><changefreq>yearly</changefreq></url>
 </urlset>
