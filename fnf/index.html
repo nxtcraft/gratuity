@@ -158,7 +158,7 @@ function calc(){
   const lastSal=perDay*daysWorked;
   const nShort=np-ns,notDed=nShort>0?perDay*nShort:0,notCred=nShort<0?perDay*Math.abs(nShort):0;
   const elEnc=el*bpd;
-  const grat=tenYrs>=5?bpd*15*Math.floor(tenYrs):0;
+  const grat=tenYrs>=5?bpd*15*((tenYrs%1)>=0.5?Math.ceil(tenYrs):Math.floor(tenYrs)):0;
   const pfAmt=pf?basic*0.12*(daysWorked/26):0,ptAmt=pt?200:0;
   const cr=lastSal+notCred+elEnc+grat+bonus;
   const db=notDed+pfAmt+ptAmt+tds+adv;
